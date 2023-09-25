@@ -76,9 +76,10 @@ print(lista)
 
 d1 = {}
 d2=dict()
-d3 = {"nev" : "doboztorta"
+d3 = {"nev" : "doboztorta",
 "szeletek" : "12"
-"elfogyott: false"}
+"elfogyott: false"
+}
 
 print(d3["szeletek"])
 
