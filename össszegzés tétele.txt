@@ -1,0 +1,42 @@
+Összegzés tétele
+x: tömb, lista (tárolja az adatokat)
+s: változó, ő tárolja az összeget
+1. N: a lista indexeit jelenti
+        #összegzés (dolgozatban úgyanígy leírandó)
+	s:=0
+	i=1..N
+	s=s+x[i]
+
+	for i in range(len(x)):
+		s=s+x[i]
+	
+	#összefűzés
+	s:=0
+	i=1..N
+	s:= f(s, x[i])
+
+	def T(n):
+		return n%2==0
+	c = 0
+	for i in range(len(x)):
+		if T(x[i]):
+			c = c+1
+ 
+
+Magszámolás
+C: Változó
+T: Feltétel, igaz/hamis
+
+	#magszámolás (ha a feltétel igaz, akkor növeljük a változó értékét)
+	c:= 0
+	i = 1..N
+
+Max-kiválasztás:
+
+MaxÉrték:=x[1]
+MaxIndex:= 1
+i = 2..N
+	x[i]>MaxÉrték
+   MaxÉrt:=x[i]
+   MaxIndex:=i
+	
