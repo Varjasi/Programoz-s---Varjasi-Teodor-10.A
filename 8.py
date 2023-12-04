@@ -1,3 +1,4 @@
+'''
 l1 = [2,3,4]
 
 l1.append(6) # [2,3,4,5,6]
@@ -23,3 +24,15 @@ sum = int(sorok[1]) + int(sorok[2])
 print(sum)
 
 print(sorok)
+
+
+# Listák törlése
+l2=[2,3]
+del (l2)
+print(l2)
+'''
+
+l = []
+
+for i in range(10):
+    l.append(i**2)
