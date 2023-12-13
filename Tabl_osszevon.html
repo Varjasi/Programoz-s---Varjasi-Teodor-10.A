@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Táblázat</title>
+    <style>
+        table, th, td {border: 2px solid blue;}
+        th {background-color: gray;}
+        th, td {padding-block-end: 15px;}
+        table {width: 40%;}
+        td {text-align: center;}
+        .jobbra {text-align: right;}
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Tanulók</th>
+                <th>Nagy Pál</th>       
+                <th>Kis Péter</th>            
+                <th>József Kóvács</th>
+            </tr>
+            
+            
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="Szülő/gondviselő" class jobbra>Szülő/gondviselő</th>
+                <td>Nagy Péter </td>
+                <td>-</td>
+                <td>József Pál</td>
+            </tr>
+            <tr>
+                <th class jobbra>Szülő/gondviselő</th>
+                <td>Nagy Melinda</td>
+                <td>Kis Éva</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <th rowspan="Telefonszám" class jobbra>Telefonszám</th>
+                <td>+36 70 255 8759</td>
+                <td>-</td>
+                <td>+36 70 255 8759</td>
+            </tr>
+            <tr>
+                <th class jobbra>Telefonszám</th>
+                <td>+36 70 255 8759</td>
+                <td>+36 70 255 8759</td>
+                <td>-</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
