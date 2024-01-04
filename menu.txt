@@ -1,0 +1,5 @@
+Menüpontok:
+      1. Számok összege
+      2. Számok soronkénti összege
+      3. Számok oszloponkénti összege
+      0. Kilépés
