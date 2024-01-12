@@ -16,7 +16,7 @@ with open ('input.txt', 'r', encoding='utf-8') as fajl:
         print(type(sor))
         print(sor.strip())
         szamok = sor.strip()
-        lista.append(int(szamok[0:2]))
+        lista.append(int(szamok[1:3]))
 
 print(lista)
 '''
