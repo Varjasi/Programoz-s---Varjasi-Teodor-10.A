@@ -33,6 +33,10 @@ if x==None:
 
  
 def masodfoku(a:float,b:float,c:float):
+    '''
+    Másodfokú megoldóképlet
+    return -1 : a=0
+    '''
     if a==0:
         return
 
@@ -46,8 +50,11 @@ def masodfoku(a:float,b:float,c:float):
 
 x = masodfoku(1,3,1)
 
-if x == None:
-    print("Nincs zérushely")
+if x == -1:
+    print("Az a értéke 0 volt-")
+
+if x == -2:
+    print("A diszkrinimáns kisebb, mint 0.")
 
 if type(x) == type((3, 2)):
     print("2 zérushelyünk van")
