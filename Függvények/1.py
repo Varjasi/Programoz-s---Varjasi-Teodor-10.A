@@ -20,6 +20,7 @@ def paros_e(x, y):
     
 print(paros_e(y = 2, x=4))
 '''
+'''
 import math
 def ki(x:any):
     print(x)
@@ -33,10 +34,9 @@ if x==None:
 
  
 def masodfoku(a:float,b:float,c:float):
-    '''
+    
     Másodfokú megoldóképlet
     return -1 : a=0
-    '''
     if a==0:
         return
 
@@ -59,4 +59,73 @@ if x == -2:
 if type(x) == type((3, 2)):
     print("2 zérushelyünk van")
 
+class A_NULLA:
+    pass
+class DISZKRINIMANS_KISEBB_NULLÁNÁL:
+    pass
+
 print("valami")
+'''
+'''
+#Összegzés tétel
+def osszegzes_tetel(l):
+    s = 0
+    for i in range(len(l)):
+        s+=l[i]
+    return(s)
+
+print(osszegzes_tetel([2,3,4]))
+
+#Eldöntés, Keresés, Kiválasztás
+
+def eldontes(a:list):
+    talalat = False
+    index = 0
+    while index < len(a) and not talalat:
+        if a[index] % 3 == 0:
+            talalat = True
+        index += 1
+    if talalat:
+        return("A listában található 3-mal osztható szám")
+    else:
+        return("A listában nem található 3-mal osztható szám")
+
+print(eldontes([4, 7]))
+
+
+def kereses(a:list):
+    talalat = False
+    index = 0
+    while index < len(a) and not talalat:
+        if a[index] % 3 == 0:
+            talalat = True
+        index += 1
+    if talalat:
+        return("A listában található 3-mal osztható szám, az indexe:", index-1)
+    else:
+        return("A listában nem található 3-mal osztható szám")
+
+print(kereses([4, 7, 3]))
+'''
+def kivalasztas(a:list):
+    talalat = False
+    index = 0
+    while not talalat:
+        if a[index] % 3 == 0:
+            talalat = True
+        index += 1
+    if talalat:
+        return("A listában található 3-mal osztható szám indexe:", index-1)
+    else:
+        return("A listában nem található 3-mal osztható szám")
+
+print(kivalasztas([4, 7, 3]))
+
+# Számlálás
+darab = 0
+def szamlalas(a:list):
+    for i in a:
+        if i % 3 == 0:
+            darab += 1
+    return("A listában")
+
