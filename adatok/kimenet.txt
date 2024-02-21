@@ -1,1 +1,3 @@
-Ez kerül a fájlba...
+alma, körte, eperalma
+körte
+eper
