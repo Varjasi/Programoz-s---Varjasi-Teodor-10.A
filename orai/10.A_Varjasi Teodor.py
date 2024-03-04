@@ -26,29 +26,60 @@ A dolgozat python fájlját küldd el a andrasi.norbert@puskas.hu-ra az alábbi 
 [osztály][filebeolvasas1] név 
 """
 
-
+'''
 def beolvas():
     file = open('orai/input1.txt')
-    global szamok
     szamok = []
     for sor in file:
         szamok.append(sor)
     file.close()
 def feladat1():
+    file = open('orai/input2.txt')
+    szamok = []
+    for sor in file:
+        szamok.append(sor)
+    file.close()
     összeg = 0
     for szam in szamok:
-        összeg =  összeg + szam
+        összeg =  összeg + szam    
     return(összeg)
-feladat1(szamok)
+feladat1()
 
-def (feladat2):
+def feladat3():
+    file = open('orai/input3.txt')
+    szamok = []
+    for sor in file:
+        szamok.append(sor)
+    file.close()
     minimum = szamok[0]
-    maximum = szamok[0]
     for szam in szamok:
         if szam < minimum:
             minimum = szam
+''' 
+def feladat4():
+    file = open('orai/input3.txt')
+    szamok = []
+    for sor in file:
+        szamok.append(sor)
+    file.close()
+    maximum = szamok[0]
+    for szam in szamok:
         if szam > maximum:
             maximum = szam
+    return(maximum)
+
+def feladat2():
+    file = open('orai/input2.txt')
+    szamok = []
+    for sor in file:
+        szamok.append(sor)
+    file.close()
+    #Számok átlaga
+    
+
+
+feladat4()
+
 
 
     
